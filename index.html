@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Style sheets -->
+    <link rel="stylesheet" href="./libs/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <!-- Favicons -->
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <!-- Scripts -->
+    <script src="./libs/swiper/swiper-bundle.min.js" defer></script>
+    <script src="./scripts/index.js" defer></script>
+    <!-- Extra meta tags -->
+    <title>Embedsocial - Display Instagram stories on any website</title>
+  </head>
+  <body class="body">
+    <header class="header">
+  <div class="header__navbar">
+    <div class="container">
+      <nav class="menu header__menu">
+        <a class="menu__logo" href="#">
+          <img src="./img/logo.svg" alt="EmbedSocial site logo"> 
+        </a>
+        <div class="menu__content">
+          <ul class="menu__list">
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">Platform</a>
+              <ul class="menu__nested-list">
+                <li class="menu__nested-list-item">
+                  <a class="menu__nested-list-link" href="#">Facebook</a>
+                </li>
+                <li class="menu__nested-list-item">
+                  <a class="menu__nested-list-link" href="#">Instagram</a>
+                </li>
+                <li class="menu__nested-list-item">
+                  <a class="menu__nested-list-link" href="#">TikTok</a>
+                </li>
+                <li class="menu__nested-list-item">
+                  <a class="menu__nested-list-link" href="#">Twitter</a>
+                </li>
+                <li class="menu__nested-list-item">
+                  <a class="menu__nested-list-link" href="#">Linkedin</a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">Widgets</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">Templates</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">Pricing</a>
+            </li>
+          </ul> 
+          <div class="menu__buttons">
+            <button class="button button--text" type="button">Login</button>
+            <button class="button button--contained" type="button">Start free trial</button>
+          </div>
+        </div>
+        <button class="menu__burger">
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </div>
+  <div class="header__main">
+    <div class="container">
+      <div class="cta header__cta">
+        <div class="cta__content header__cta-content">
+          <h1 class="cta__title title">
+            Display Instagram Stories on any website, <mark>in&nbsp;seconds</mark>
+          </h1>
+          <p class="cta__description">
+            Display Instagram Stories Widget on your website, that auto-syncs, and updates each time you add a photo in your active story. 
+          </p>
+          <form class="cta__form">
+            <label>
+              <input type="email" name="email" placeholder="Enter your email">
+            </label>
+            <button class="button button--contained button--arrow-right">Start free trial</button>
+          </form>
+          <ul class="cta__list">
+            <li class="cta__list-item">Free 7-day trial</li>
+            <li class="cta__list-item">Easy setup</li>
+            <li class="cta__list-item">Cancel any time</li>
+          </ul>
+        </div>
+        <picture class="cta__image header__cta-image">
+          <source srcset="./img/hero-image.avif, ./img/hero-image@2x.avif 2x" type="image/avif">
+          <source srcset="./img/hero-image.webp, ./img/hero-image@2x.webp 2x" type="image/webp">
+          <source srcset="./img/hero-image@2x.png 2x">
+          <img src="./img/hero-image.png" alt="Header hero-image">
+        </picture>
+      </div>
+    </div>
+  </div>
+  <div class="header__partners">
+    <div class="container">
+      <div class="header__partners-wrapper">
+        <p class="header__partners-title">
+          Join 50.000+ websites<wbr> that use EmbedSocial to sell more
+        </p>
+        <ul class="header__partners-list">
+          <li class="header__partners-item">
+            <img src="./img/partners/cnn.png" alt="CNN logo">
+          </li>
+          <li class="header__partners-item">
+            <img src="./img/partners/natgeo.png" alt="National Geographic logo">
+          </li>
+          <li class="header__partners-item">
+            <img src="./img/partners/florence.png" alt="Florence by Mills logo">
+          </li>
+          <li class="header__partners-item">
+            <img src="./img/partners/ancestry.png" alt="Ancestry logo">
+          </li>
+          <li class="header__partners-item">
+            <img src="./img/partners/industrious.png" alt="Industrious logo">
+          </li>
+          <li class="header__partners-item">
+            <img src="./img/partners/nike.png" alt="Nile logo">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+
+    <main>
+      <section class="widgets">
+  <div class="container">
+    <div class="widgets__wrapper">
+      <div class="widgets__content">
+        <h2 class="widgets__title title">Widgets for every website</h2>
+        <ul class="widgets__list">
+          <li class="widgets__item current">
+            <svg><use href="./img/widgets/widgets-icons.svg#highlights" /></svg>
+            Highlights
+          </li>
+          <li class="widgets__item">
+            <svg><use href="./img/widgets/widgets-icons.svg#popover" /></svg>
+            Popover
+          </li>
+          <li class="widgets__item">
+            <svg><use href="./img/widgets/widgets-icons.svg#slideshow" /></svg>
+            Slideshow
+          </li>
+          <li class="widgets__item">
+            <svg><use href="./img/widgets/widgets-icons.svg#list" /></svg>
+            List
+          </li>
+          <li class="widgets__item">
+            <svg><use href="./img/widgets/widgets-icons.svg#carousel" /></svg>
+            Carousel
+          </li>
+        </ul>
+      </div>
+      <picture class="widgets__preview">
+        <source srcset="./img/widgets/preview-widget-1.avif, ./img/widgets/preview-widget-1@2x.avif 2x" type="image/avif">
+        <source srcset="./img/widgets/preview-widget-1.webp, ./img/widgets/preview-widget-1@2x.webp 2x" type="image/webp">
+        <source srcset="./img/widgets/preview-widget-1@2x.jpg 2x">
+        <img src="./img/widgets/preview-widget-1.jpg" alt="Widgets preview">
+      </picture>
+    </div>
+  </div>
+</section>
+
+      <section class="platforms">
+  <div class="container">
+    <div class="platforms__wrapper">
+    <h2 class="platforms__title title">Let your story live <mark>more than 24h</mark></h2>
+      <p class="platforms__description">You've worked hard to create a beautiful Instagram story but it disappears in 24 hours? No worries, use our story saver for Instagram to bring them to life on your website.</p>
+      <ul class="platforms__list">
+        <li class="platforms__item">
+          <img class="platforms__item-icon" src="./img/platforms/instagram.png" alt="">
+          <p class="platforms__item-text"><strong>Auto-Sync</strong><br>Instagram stories</p>
+        </li>
+        <li class="platforms__item">
+          <img class="platforms__item-icon" src="./img/platforms/facebook.png" alt="">
+          <p class="platforms__item-text"><strong>Upload</strong><br>Facebook stories</p>
+        </li>
+        <li class="platforms__item">
+          <img class="platforms__item-icon" src="./img/platforms/tiktok.png" alt="">
+          <p class="platforms__item-text"><strong>Sync</strong><br>TikTok stories</p>
+        </li>
+        <li class="platforms__item">
+          <img class="platforms__item-icon" src="./img/platforms/twitter.png" alt="">
+          <p class="platforms__item-text"><strong>Upload</strong><br>Twitter fleets</p>
+        </li>
+        <li class="platforms__item">
+          <img class="platforms__item-icon" src="./img/platforms/linkedin.png" alt="">
+          <p class="platforms__item-text"><strong>Upload</strong><br>Linkedin stories</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section class="benefits">
+  <div class="container">
+    <div class="benefits__wrapper">
+      <h2 class="title benefits__title">
+        Double your conversions.<br>Double your <mark>growth</mark>
+      </h2>
+      <ul class="benefits__list">
+        <li class="benefits__item">
+          <p class="benefits__item-title">Brands</p>
+          <p class="benefits__item-subtitle">
+            <svg>
+              <use href="./img/icons/sprite.svg#increase" />
+            </svg>
+            Icreases conversions
+          </p>
+          <p class="benefits__item-description">
+            Enhance the visual showcase of your products with unique content making visitors convert to buyers.
+          </p>
+        </li>
+        <li class="benefits__item">
+          <p class="benefits__item-title">Marketers</p>
+          <p class="benefits__item-subtitle">
+            <svg>
+              <use href="./img/icons/sprite.svg#clock" />
+            </svg>
+            Save time
+          </p>
+          <p class="benefits__item-description">
+            No more re-purposing, re-cropping or re-uploading the same content from your Instagram stories to your website. 
+          </p>
+        </li>
+        <li class="benefits__item">
+          <p class="benefits__item-title">Web designers</p>
+          <p class="benefits__item-subtitle">
+            <svg>
+              <use href="./img/icons/sprite.svg#instagram" />
+            </svg>
+            Fresh content
+            </p>
+          <p class="benefits__item-description">
+            Every story you post on Instagram, it is automatically saved in your account. Auto updates you unique content.
+          </p>
+        </li>
+      </ul>
+      <blockquote class="benefits__feedback">
+        <img class="benefits__feedback-logo" src="./img/partners/clovin.png" alt="Clovin logo">
+        <p class="benefits__feedback-text">
+          “Storytelling on another level. EmbedStories is great - it takes pride of place on our homepage aggregating stories from our Instagram account. I highly recommend this product”.
+        </p>
+        <div class="benefits__feedback-info">
+          <img class="benefits__feedback-info-img" src="./img/partners/avatars/ben-calahen.jpg" alt="Client avatar">
+          <cite class="benefits__feedback-info-name"><b>Ben Calahen</b>, COO at Clovin</cite>
+        </div>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+      <section class="templates">
+  <div class="container">
+    <div class="templates__wrapper">
+      <h2 class="templates__title title">Get started with one of our templates</h2>
+      <p class="templates__description">
+        Start with one of our pre-designed templates. Create, personalize and embed the perfect widget for any page or campaign in just minutes.
+      </p>
+      <button class="button button--contained button--arrow-right templates__button" type="button">
+        See templates demos
+      </button>
+      <div class="templates__slider">
+        <ul class="templates__slider-list swiper-wrapper">
+          <li class="templates__slider-item swiper-slide">
+            <picture>
+              <source srcset="./img/templates/slide-1@2x.jpg 2x">
+              <img class="templates__slider-item-cover" src="./img/templates/slide-1.jpg" alt="First slide">
+            </picture>
+            <div class="templates__slider-item-content"> 
+              <h3 class="templates__slider-item-title">Popover</h3>
+              <p class="templates__slider-item-description">
+                Showcases on every page that gives the feel of a living & breathing website. 
+              </p>
+            </div>
+          </li>
+          <li class="templates__slider-item swiper-slide">
+            <picture>
+              <source srcset="./img/templates/slide-2@2x.jpg 2x">
+              <img class="templates__slider-item-cover" src="./img/templates/slide-2.jpg" alt="First slide">
+            </picture>
+            <div class="templates__slider-item-content"> 
+              <h3 class="templates__slider-item-title">Highlights</h3>
+              <p class="templates__slider-item-description">
+                Mimics the same functionality of the Instagram Highlights on your website. 
+              </p>
+            </div>
+          </li>
+          <li class="templates__slider-item swiper-slide">
+            <picture>
+              <source srcset="./img/templates/slide-3@2x.jpg 2x">
+              <img class="templates__slider-item-cover" src="./img/templates/slide-3.jpg" alt="First slide">
+            </picture>
+            <div class="templates__slider-item-content"> 
+              <h3 class="templates__slider-item-title">Slider</h3>
+              <p class="templates__slider-item-description">
+                Display your stories in a full slideshow layout that catches your visitors attention.  
+              </p>
+            </div>
+          </li>
+          <li class="templates__slider-item swiper-slide">
+            <picture>
+              <source srcset="./img/templates/slide-4@2x.jpg 2x">
+              <img class="templates__slider-item-cover" src="./img/templates/slide-4.jpg" alt="First slide">
+            </picture>
+            <div class="templates__slider-item-content"> 
+              <h3 class="templates__slider-item-title">Gallery</h3>
+              <p class="templates__slider-item-description">
+                One widget with multiple stories and embed them as a full story gallery on your website. 
+              </p>
+            </div>
+          </li>
+        </ul>
+        <div class="templates__slider-pagination"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="features">
+  <h2 class="visually-hidden">Section main title</h2>
+  <div class="features__basic">
+    <div class="container">
+      <article class="features__box">
+        <p class="features__badge">
+          <svg><use href="./img/icons/sprite.svg#fill" /></svg>
+          Customization
+        </p>
+        <h3 class="features__box-title features__box-title--centered title">Be on brand. Customize in minutes</h3>
+        <p class="features__box-description features__box-description--centered">
+          EmbedSocial gives you flexibility in managing the display and looks of the Instagram Stories on your website. 
+        </p>
+        <ul class="features__tags-list">
+          <li class="features__tags-item">
+            <svg><use href="./img/icons/sprite.svg#calendar" /></svg>
+            Stories from specific date 
+          </li>
+          <li class="features__tags-item">
+            <svg><use href="./img/icons/sprite.svg#fill" /></svg>
+            Customize color 
+          </li>
+          <li class="features__tags-item">
+            <svg><use href="./img/icons/sprite.svg#instagram" /></svg>
+            Follow button
+          </li>
+          <li class="features__tags-item">
+            <svg><use href="./img/icons/sprite.svg#windows" /></svg>
+            Multiple layouts
+          </li>
+          <li class="features__tags-item">
+            <svg><use href="./img/icons/sprite.svg#gear" /></svg>
+            Advance moderation
+          </li>
+          <li class="features__tags-item">
+            <svg><use href="./img/icons/sprite.svg#code" /></svg>
+            Custom CSS
+          </li>
+        </ul>
+        <picture>
+          <source srcset="./img/widgets/preview-widget-2.avif, ./img/widgets/preview-widget-2@2x.avif 2x" type="image/avif">
+          <source srcset="./img/widgets/preview-widget-2.webp, ./img/widgets/preview-widget-2@2x.webp 2x" type="image/webp">
+          <source srcset="./img/widgets/preview-widget-2@2x.jpg 2x">
+          <img class="features__preview" src="./img/widgets/preview-widget-2.jpg" alt="">
+        </picture>
+      </article>
+      <article class="features__box">
+        <p class="features__badge">
+          <svg><use href="./img/icons/sprite.svg#fill" /></svg>
+          Installation
+        </p>
+        <h3 class="features__box-title features__box-title--centered title">Embed it and forget it</h3>
+        <ul class="features__tags-list">
+          <li class="features__tags-item features__tags-item--transparent">
+            <svg><use href="./img/icons/sprite.svg#check" /></svg>
+            <span>Simple installation. No developers needed</span>
+          </li>
+          <li class="features__tags-item features__tags-item--transparent">
+            <svg><use href="./img/icons/sprite.svg#check" /></svg>
+            <span>Embed on different CMS platforms</span>
+          </li>
+          <li class="features__tags-item features__tags-item--transparent">
+            <svg><use href="./img/icons/sprite.svg#check" /></svg>
+            <span>Auto sync new stories</span>
+          </li>
+        </ul>
+        <picture>
+          <source srcset="./img/widgets/preview-widget-3.avif, ./img/widgets/preview-widget-3@2x.avif 2x" type="image/avif">
+          <source srcset="./img/widgets/preview-widget-3.webp, ./img/widgets/preview-widget-2@2x.webp 3x" type="image/webp">
+          <source srcset="./img/widgets/preview-widget-3@2x.jpg 2x">
+          <img class="features__preview" src="./img/widgets/preview-widget-3.jpg" alt="">
+        </picture>
+      </article>
+      <article class="features__box features__box--filled">
+        <div class="features__box-content">
+          <p class="features__badge">
+            <svg><use href="./img/icons/sprite.svg#cube" /></svg>
+            Integrations
+          </p>
+          <h3 class="features__box-title features__box-title--restricted title">Works with 99.9% of web platforms</h3>
+          <p class="features__box-description">
+            We integrate with tons of other apps, ecommerce platforms or web builders. Native apps are available too.
+          </p>
+          <ul class="features__tags-list features__tags-list--column">
+            <li class="features__tags-item features__tags-item--text">
+              <svg><use href="./img/icons/sprite.svg#check" /></svg>
+              Works with any website
+            </li>
+            <li class="features__tags-item features__tags-item--text">
+              <svg><use href="./img/icons/sprite.svg#check" /></svg>
+              No coding required to embed
+            </li>
+          </ul>
+        </div>
+        <div class="features__box-cover"></div>
+      </article>
+    </div>
+  </div>
+  <div class="features__cta cta">
+    <div class="container">
+      <div class="cta__wrapper">
+        <div class="cta__content">
+          <h2 class="cta__title title">Ready to dive in?<br>Create your widget today</h2>
+          <p class="cta__description">
+            Display Instagram Stories Widget on your website, that auto-syncs, and updates each time you add a photo in your active story. 
+          </p>
+          <form class="cta__form">
+            <label>
+              <input type="email" name="email" placeholder="Enter your email">
+            </label>
+            <button class="button button--contained button--arrow-right">Start free trial</button>
+          </form>
+          <ul class="cta__list">
+            <li class="cta__list-item">Free 7-day trial</li>
+            <li class="cta__list-item">Easy setup</li>
+            <li class="cta__list-item">Cancel any time</li>
+          </ul>
+      </div>
+      <div class="cta__slider">
+        <ul class="cta__slider-list swiper-wrapper">
+          <li class="cta__slider-item swiper-slide">
+            <picture>
+              <source srcset="./img/widgets/slider/slide-1.avif, ./img/widgets/slider/slide-1@2x.avif 2x" type="image/avif">
+              <source srcset="./img/widgets/slider/slide-1.webp, ./img/widgets/slider/slide-1@2x.webp 2x" type="image/webp">
+              <source srcset="./img/widgets/slider/slide-1@2x.jpg 2x">
+              <img src="./img/widgets/slider/slide-1.jpg" alt="">
+            </picture>
+          </li>
+          <li class="cta__slider-item swiper-slide">
+            <picture>
+              <source srcset="./img/widgets/slider/slide-2.avif, ./img/widgets/slider/slide-2@2x.avif 2x" type="image/avif">
+              <source srcset="./img/widgets/slider/slide-2.webp, ./img/widgets/slider/slide-2@2x.webp 2x" type="image/webp">
+              <source srcset="./img/widgets/slider/slide-2@2x.jpg 2x">
+              <img src="./img/widgets/slider/slide-2.jpg" alt="">
+            </picture>
+          </li>
+          <li class="cta__slider-item swiper-slide">
+            <picture>
+              <source srcset="./img/widgets/slider/slide-3.avif, ./img/widgets/slider/slide-3@2x.avif 2x" type="image/avif">
+              <source srcset="./img/widgets/slider/slide-3.webp, ./img/widgets/slider/slide-3@2x.webp 2x" type="image/webp">
+              <source srcset="./img/widgets/slider/slide-3@2x.jpg 2x">
+              <img src="./img/widgets/slider/slide-3.jpg" alt="">
+            </picture>
+          </li>
+        </ul>
+        <div class="cta__slider-buttons">
+          <div class="cta__slider-buttons-prev"></div>
+          <div class="cta__slider-buttons-next"></div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="features__advance">
+    <div class="container">
+      <div class="features__box">
+        <h3 class="features__box-title features__box-title--centered title">Other features at your service</h3>
+        <ul class="features__box-list">
+          <li class="features__box-item">
+            <div class="features__box-item-icon">
+              <svg><use href="./img/icons/sprite.svg#sync" /></svg>
+            </div>
+            <p class="features__box-item-title">Auto sync</p>
+            <p class="features__box-item-description">
+              Sync all Instagram stories in a single click and create an widget that you can embed on any website. 
+            </p>
+          </li>
+          <li class="features__box-item">
+            <div class="features__box-item-icon">
+              <svg><use href="./img/icons/sprite.svg#phone" /></svg>
+            </div>
+            <p class="features__box-item-title">Responsive</p>
+            <p class="features__box-item-description">
+              Mobile-friendly, fully responsive, fits on every display: tablet, mobile, or desktop. 
+            </p>
+          </li>
+          <li class="features__box-item">
+            <div class="features__box-item-icon">
+              <svg><use href="./img/icons/sprite.svg#instagram" /></svg>
+            </div>
+            <p class="features__box-item-title">Follow button</p>
+            <p class="features__box-item-description">
+              Show a Follow button with a link to your Instagram account to help you drive traffic and increase followers. 
+            </p>
+          </li>
+          <li class="features__box-item">
+            <div class="features__box-item-icon">
+              <svg><use href="./img/icons/sprite.svg#windows" /></svg>
+            </div>
+            <p class="features__box-item-title">Unlimited widgets</p>
+            <p class="features__box-item-description">
+              Create multiple widgets and embed feeds on various websites from multiple social media platforms. 
+            </p>
+          </li>
+          <li class="features__box-item">
+            <div class="features__box-item-icon">
+              <svg><use href="./img/icons/sprite.svg#planet" /></svg>
+            </div>
+            <p class="features__box-item-title">Localization</p>
+            <p class="features__box-item-description">
+              Use the 10+ languages available in the platform to localize the widget for your web visitors. 
+            </p>
+          </li>
+          <li class="features__box-item">
+            <div class="features__box-item-icon">
+              <svg><use href="./img/icons/sprite.svg#filter" /></svg>
+            </div>
+            <p class="features__box-item-title">Filters (PRO)</p>
+            <p class="features__box-item-description">
+              Use filters by date or keywords. Change the number of pages and post per page in your feed...
+            </p>
+          </li>
+          <li class="features__box-item">
+            <div class="features__box-item-icon">
+              <svg><use href="./img/icons/sprite.svg#increase" /></svg>
+            </div>
+            <p class="features__box-item-title">Analytics</p>
+            <p class="features__box-item-description">
+              Know which Instagram story performs best and the total clicks of the entire widget on your website.
+            </p>
+          </li>
+          <li class="features__box-item">
+            <div class="features__box-item-icon">
+              <svg><use href="./img/icons/sprite.svg#code" /></svg>
+            </div>
+            <p class="features__box-item-title">Custom CSS</p>
+            <p class="features__box-item-description">
+              Variety of settings, filters, and a Custom CSS editor to style your social media widget entirely. 
+            </p>
+          </li>
+        </ul>
+        <p class="features__box-description features__box-description--centered">
+          And <a class="features__box-link" href="#">12 more features</a> available in all plans...
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="social-proof">
+  <div class="container">
+    <h2 class="visually-hidden">Social proof title</h2>
+    <article class="social-proof__video">
+      <blockquote class="social-proof__video-content">
+        <h3 class="social-proof__video-title title">It was love at first story</h3>
+        <p class="social-proof__video-text">
+          “Great plugin and amazing support. I trialed several plugins that try to accomplish the same thing. None of them did it as beautifully and as simple as EmbedSocial”
+        </p>
+        <cite class="social-proof__video-name"><b>Bertha Jo</b>, CEO at Jacole</cite>
+        <img class="social-proof__video-logo" src="./img/social-proof/jacole-logo.svg" alt="Jacole logo">
+      </blockquote>
+      <div class="social-proof__video-player">
+        <picture>
+          <source srcset="./img/social-proof/video-preview.avif, ./img/social-proof/video-preview@2x.avif 2x" type="image/avif">
+          <source srcset="./img/social-proof/video-preview.webp, ./img/social-proof/video-preview@2x.webp 2x" type="image/webp">
+          <source srcset="./img/social-proof/video-preview@2x.jpg">
+          <img src="./img/social-proof/video-preview.jpg" alt="Video preview">
+        </picture>
+        <button class="social-proof__video-play-button" type="button"></button>
+      </div>
+    </article>
+    <article class="social-proof__reviews">
+      <h2 class="social-proof__reviews-title title">Our customers love EmbedSocial</h2>
+      <p class="social-proof__reviews-description"><b>Rated 4.8</b> by our customers on Facebook and Google</p>
+      <ul class="social-proof__reviews-list">
+        <li class="social-proof__reviews-item">
+          <img class="social-proof__reviews-avatar" src="./img/partners/avatars/terry-dias.jpg" alt="">
+          <p class="social-proof__reviews-name">Terry Dias</p>
+          <div class="social-proof__reviews-rate">
+            <img src="./img/icons/star.svg" alt="">
+            <img src="./img/icons/star.svg" alt="">
+            <img src="./img/icons/star.svg" alt="">
+            <img src="./img/icons/star.svg" alt="">
+            <img src="./img/icons/star.svg" alt="">
+          </div>
+          <p class="social-proof__reviews-text">
+            I just signed up for a trial and within a couple of hours had a brand new customer testimonials page built on our website as well as sliders...
+          </p>
+          <p class="social-proof__reviews-date">2 weeks ago</p>
+        </li>
+        <li class="social-proof__reviews-item">
+          <img class="social-proof__reviews-avatar" src="./img/partners/avatars/james-workman.jpg" alt="">
+          <p class="social-proof__reviews-name">James Workman</p>
+          <div class="social-proof__reviews-rate">
+            <img src="./img/icons/star.svg" alt="">
+            <img src="./img/icons/star.svg" alt="">
+            <img src="./img/icons/star.svg" alt="">
+            <img src="./img/icons/star.svg" alt="">
+            <img src="./img/icons/star.svg" alt="">
+          </div>
+          <p class="social-proof__reviews-text">
+            Seriously impressed by Embed Social.Good job making the app so easy to use.
+          </p>
+          <p class="social-proof__reviews-date">2 weeks ago</p>
+        </li>
+        <li class="social-proof__reviews-item">
+          <img class="social-proof__reviews-avatar" src="./img/partners/avatars/ahmad-vaccara.jpg" alt="">
+          <p class="social-proof__reviews-name">Ahmad Vaccaro</p>
+          <div class="social-proof__reviews-rate">
+            <img src="./img/icons/star.svg" alt="">
+            <img src="./img/icons/star.svg" alt="">
+            <img src="./img/icons/star.svg" alt="">
+            <img src="./img/icons/star.svg" alt="">
+            <img src="./img/icons/star.svg" alt="">
+          </div>
+          <p class="social-proof__reviews-text">
+            EmbedSocial and their services is just perfect! It has made my business life so much easier! 5 stars!
+          </p>
+          <p class="social-proof__reviews-date">2 weeks ago</p>
+        </li>
+        <li class="social-proof__reviews-item">
+          <img class="social-proof__reviews-avatar" src="./img/partners/avatars/allison-culhane.jpg" alt="">
+          <p class="social-proof__reviews-name">Allison Culhane</p>
+          <div class="social-proof__reviews-rate">
+            <img src="./img/icons/star.svg" alt="">
+            <img src="./img/icons/star.svg" alt="">
+            <img src="./img/icons/star.svg" alt="">
+            <img src="./img/icons/star.svg" alt="">
+            <img src="./img/icons/star.svg" alt="">
+          </div>
+          <p class="social-proof__reviews-text">
+            Awesome products, Superior human support.
+          </p>
+          <p class="social-proof__reviews-date">2 weeks ago</p>
+        </li>
+        <li class="social-proof__reviews-item">
+          <img class="social-proof__reviews-avatar" src="./img/partners/avatars/davis-herwitz.jpg" alt="">
+          <p class="social-proof__reviews-name">Davis Herwitz</p>
+          <div class="social-proof__reviews-rate">
+            <img src="./img/icons/star.svg" alt="">
+            <img src="./img/icons/star.svg" alt="">
+            <img src="./img/icons/star.svg" alt="">
+            <img src="./img/icons/star.svg" alt="">
+            <img src="./img/icons/star.svg" alt="">
+          </div>
+          <p class="social-proof__reviews-text">
+            I've been on the look out for lots of companies to do what they do, and I've never found any company who are so quick to get in touch and...
+          </p>
+          <p class="social-proof__reviews-date">2 weeks ago</p>
+        </li>
+        <li class="social-proof__reviews-item">
+          <img class="social-proof__reviews-avatar" src="./img/partners/avatars/jessie-grant.jpg" alt="">
+          <p class="social-proof__reviews-name">Jessie Grant</p>
+          <div class="social-proof__reviews-rate">
+            <img src="./img/icons/star.svg" alt="">
+            <img src="./img/icons/star.svg" alt="">
+            <img src="./img/icons/star.svg" alt="">
+            <img src="./img/icons/star.svg" alt="">
+            <img src="./img/icons/star.svg" alt="">
+          </div>
+          <p class="social-proof__reviews-text">
+            Very impressed. 5 stars!
+          </p>
+          <p class="social-proof__reviews-date">2 weeks ago</p>
+        </li>
+        <li class="social-proof__reviews-item">
+          <img class="social-proof__reviews-avatar" src="./img/partners/avatars/john-smith.jpg" alt="">
+          <p class="social-proof__reviews-name">John Smith</p>
+          <div class="social-proof__reviews-rate">
+            <img src="./img/icons/star.svg" alt="">
+            <img src="./img/icons/star.svg" alt="">
+            <img src="./img/icons/star.svg" alt="">
+            <img src="./img/icons/star.svg" alt="">
+            <img src="./img/icons/star.svg" alt="">
+          </div>
+          <p class="social-proof__reviews-text">
+            Our experience with EmbedStories is very good, very solid, loads fast, looks good.
+          </p>
+          <p class="social-proof__reviews-date">2 weeks ago</p>
+        </li>
+        <li class="social-proof__reviews-item">
+          <img class="social-proof__reviews-avatar" src="./img/partners/avatars/ben-calahen.jpg" alt="">
+          <p class="social-proof__reviews-name">Ben Calahen</p>
+          <div class="social-proof__reviews-rate">
+            <img src="./img/icons/star.svg" alt="">
+            <img src="./img/icons/star.svg" alt="">
+            <img src="./img/icons/star.svg" alt="">
+            <img src="./img/icons/star.svg" alt="">
+            <img src="./img/icons/star.svg" alt="">
+          </div>
+          <p class="social-proof__reviews-text">
+            Storytelling on another level. EmbedStories is great - it takes pride of place on our homepage...
+          </p>
+          <p class="social-proof__reviews-date">2 weeks ago</p>
+        </li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+      <section class="pricing">
+  <div class="container">
+    <div class="pricing__wrapper">
+      <h2 class="pricing__title title">Try all EmbedSocial features 7 days free</h2>
+      <p class="pricing__description">Reach more with your Instagram stories.</p>
+      <div class="pricing__switcher">
+        <input type="checkbox" id="pricing__checkbox" checked>
+        <label for="pricing__checkbox"></label>
+      </div>
+      <ul class="pricing__list">
+        <li class="pricing__item">
+          <div class="pricing__item-wrapper">
+            <p class="pricing__item-title">FREE</p>
+            <p class="pricing__item-price"><span>$0</span>/month</p>
+            <button class="pricing__item-button button button--outlined">
+              Start Using For Free
+            </button>
+            <ul class="pricing__item-features-list">
+              <li class="pricing__item-features-item">
+                <svg><use href="./img/icons/sprite.svg#check" /></svg>
+                1 Instagram Business Account
+              </li>
+              <li class="pricing__item-features-item">
+                <svg><use href="./img/icons/sprite.svg#check" /></svg>
+                Auto Update
+              </li>
+              <li class="pricing__item-features-item pricing__item-features-item--disabled">
+                <svg><use href="./img/icons/sprite.svg#check" /></svg>
+                Unlimited Story Widgets
+              </li>
+              <li class="pricing__item-features-item pricing__item-features-item--disabled">
+                <svg><use href="./img/icons/sprite.svg#check" /></svg>
+                Unlimited Galleries
+              </li>
+              <li class="pricing__item-features-item pricing__item-features-item--disabled">
+                <svg><use href="./img/icons/sprite.svg#check" /></svg>
+                Multiple Layouts & Options
+              </li>
+              <li class="pricing__item-features-item pricing__item-features-item--disabled">
+                <svg><use href="./img/icons/sprite.svg#check" /></svg>
+                Convert to AMP Format
+              </li>
+              <li class="pricing__item-features-item pricing__item-features-item--disabled">
+                <svg><use href="./img/icons/sprite.svg#check" /></svg>
+                API Access
+              </li>
+              <li class="pricing__item-features-item pricing__item-features-item--disabled">
+                <svg><use href="./img/icons/sprite.svg#check" /></svg>
+                Team Sub-Accounts
+              </li>
+              <li class="pricing__item-features-item pricing__item-features-item--disabled">
+                <svg><use href="./img/icons/sprite.svg#check" /></svg>
+                Advance Analytics
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="pricing__item checked">
+          <div class="pricing__item-wrapper">
+            <p class="pricing__item-title">PRO</p>
+            <p class="pricing__item-price"><span>$29</span>/month</p>
+            <button class="pricing__item-button button button--contained">
+              Try Free For 7 Days
+            </button>
+            <ul class="pricing__item-features-list">
+              <li class="pricing__item-features-item">
+                <svg><use href="./img/icons/sprite.svg#check" /></svg>
+                1 Instagram Business Account
+              </li>
+              <li class="pricing__item-features-item">
+                <svg><use href="./img/icons/sprite.svg#check" /></svg>
+                Auto Update
+              </li>
+              <li class="pricing__item-features-item">
+                <svg><use href="./img/icons/sprite.svg#check" /></svg>
+                Unlimited Story Widgets
+              </li>
+              <li class="pricing__item-features-item">
+                <svg><use href="./img/icons/sprite.svg#check" /></svg>
+                Unlimited Galleries
+              </li>
+              <li class="pricing__item-features-item">
+                <svg><use href="./img/icons/sprite.svg#check" /></svg>
+                Multiple Layouts & Options
+              </li>
+              <li class="pricing__item-features-item">
+                <svg><use href="./img/icons/sprite.svg#check" /></svg>
+                Convert to AMP Format
+              </li>
+              <li class="pricing__item-features-item">
+                <svg><use href="./img/icons/sprite.svg#check" /></svg>
+                API Access
+              </li>
+              <li class="pricing__item-features-item pricing__item-features-item--disabled">
+                <svg><use href="./img/icons/sprite.svg#check" /></svg>
+                Team Sub-Accounts
+              </li>
+              <li class="pricing__item-features-item pricing__item-features-item--disabled">
+                <svg><use href="./img/icons/sprite.svg#check" /></svg>
+                Advance Analytics
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="pricing__item">
+          <div class="pricing__item-wrapper">
+            <p class="pricing__item-title">PRO Plus</p>
+            <p class="pricing__item-price"><span>$49</span>/month</p>
+            <button class="pricing__item-button button button--outlined">
+              Start Using For Free
+            </button>
+            <ul class="pricing__item-features-list">
+              <li class="pricing__item-features-item">
+                <svg><use href="./img/icons/sprite.svg#check" /></svg>
+                3 Instagram Business Account
+              </li>
+              <li class="pricing__item-features-item">
+                <svg><use href="./img/icons/sprite.svg#check" /></svg>
+                Auto Update
+              </li>
+              <li class="pricing__item-features-item">
+                <svg><use href="./img/icons/sprite.svg#check" /></svg>
+                Unlimited Story Widgets
+              </li>
+              <li class="pricing__item-features-item">
+                <svg><use href="./img/icons/sprite.svg#check" /></svg>
+                Unlimited Galleries
+              </li>
+              <li class="pricing__item-features-item">
+                <svg><use href="./img/icons/sprite.svg#check" /></svg>
+                Multiple Layouts & Options
+              </li>
+              <li class="pricing__item-features-item">
+                <svg><use href="./img/icons/sprite.svg#check" /></svg>
+                Convert to AMP Format
+              </li>
+              <li class="pricing__item-features-item">
+                <svg><use href="./img/icons/sprite.svg#check" /></svg>
+                API Access
+              </li>
+              <li class="pricing__item-features-item pricing__item-features-item--disabled">
+                <svg><use href="./img/icons/sprite.svg#check" /></svg>
+                Team Sub-Accounts
+              </li>
+              <li class="pricing__item-features-item pricing__item-features-item--disabled">
+                <svg><use href="./img/icons/sprite.svg#check" /></svg>
+                Advance Analytics
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="pricing__item">
+          <div class="pricing__item-wrapper">
+            <p class="pricing__item-title">Premium</p>
+            <p class="pricing__item-price"><span>$99</span>/month</p>
+            <button class="pricing__item-button button button--outlined">
+              Start Using For Free
+            </button>
+            <ul class="pricing__item-features-list">
+              <li class="pricing__item-features-item">
+                <svg><use href="./img/icons/sprite.svg#check" /></svg>
+                3 Instagram Business Account
+              </li>
+              <li class="pricing__item-features-item">
+                <svg><use href="./img/icons/sprite.svg#check" /></svg>
+                Auto Update
+              </li>
+              <li class="pricing__item-features-item">
+                <svg><use href="./img/icons/sprite.svg#check" /></svg>
+                Unlimited Story Widgets
+              </li>
+              <li class="pricing__item-features-item">
+                <svg><use href="./img/icons/sprite.svg#check" /></svg>
+                Unlimited Galleries
+              </li>
+              <li class="pricing__item-features-item">
+                <svg><use href="./img/icons/sprite.svg#check" /></svg>
+                Multiple Layouts & Options
+              </li>
+              <li class="pricing__item-features-item">
+                <svg><use href="./img/icons/sprite.svg#check" /></svg>
+                Convert to AMP Format
+              </li>
+              <li class="pricing__item-features-item">
+                <svg><use href="./img/icons/sprite.svg#check" /></svg>
+                API Access
+              </li>
+              <li class="pricing__item-features-item">
+                <svg><use href="./img/icons/sprite.svg#check" /></svg>
+                Team Sub-Accounts
+              </li>
+              <li class="pricing__item-features-item">
+                <svg><use href="./img/icons/sprite.svg#check" /></svg>
+                Advance Analytics
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section class="faq">
+  <div class="container">
+    <div class="faq__wrapper">
+      <h2 class="faq__title title">Frequently asked questions</h2>
+      <p class="faq__description">
+        Have a specific question? Check out our <a class="faq__link" href="#">support center</a>
+      </p>
+      <div class="faq__spoilers" data-spoilers>
+        <div class="faq__spoilers-item">
+          <button class="faq__spoilers-item-title" type="button" data-spoiler>Question 1</button>
+          <div class="faq__spoilers-item-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse pariatur nemo itaque quo alias iusto assumenda enim reiciendis voluptate velit.
+          </div>
+        </div>
+        <div class="faq__spoilers-item">
+          <button class="faq__spoilers-item-title" type="button" data-spoiler>Question 2</button>
+          <div class="faq__spoilers-item-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse pariatur nemo itaque quo alias iusto assumenda enim reiciendis voluptate velit.
+          </div>
+        </div>
+        <div class="faq__spoilers-item">
+          <button class="faq__spoilers-item-title" type="button" data-spoiler>Question 3</button>
+          <div class="faq__spoilers-item-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse pariatur nemo itaque quo alias iusto assumenda enim reiciendis voluptate velit.
+          </div>
+        </div>
+        <div class="faq__spoilers-item">
+          <button class="faq__spoilers-item-title" type="button" data-spoiler>Question 4</button>
+          <div class="faq__spoilers-item-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse pariatur nemo itaque quo alias iusto assumenda enim reiciendis voluptate velit.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="cta">
+  <div class="container">
+    <div class="cta__wrapper cta__wrapper--column">
+      <h2 class="cta__title cta__title--centered title">Ready to dive in?<br>Create your widget today</h2>
+      <p class="cta__description cta__description--centered">
+        Display Instagram Stories Widget on your website, that auto-syncs, and updates each time you add a photo in your active story. 
+      </p>
+      <form class="cta__form">
+        <label>
+          <input type="email" name="email" placeholder="Enter your email">
+        </label>
+        <button class="button button--contained button--arrow-right" type="submit">Start free trial</button>
+      </form>
+      <ul class="cta__list">
+        <li class="cta__list-item">Free 7-day trial</li>
+        <li class="cta__list-item">Easy setup</li>
+        <li class="cta__list-item">Cancel any time</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <footer class="footer">
+  <div class="container">
+    <div class="footer__wrapper">
+      <div class="footer__box">
+        <a href="#"><img class="footer__logo" src="./img/logo-white.svg" alt="Footer logo"></a>
+        <p class="footer__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id rhoncus suspendisse mattis ultricies adipiscing quam pretium eleifend. 
+        </p>
+      </div>
+      <div class="footer__box">
+        <p class="footer__box-title">Product</p>
+        <ul class="footer__box-list">
+          <li class="footer__box-item">
+            <a class="footer__box-link" href="#">Reviews management</a>
+          </li>
+          <li class="footer__box-item">
+            <a class="footer__box-link" href="#">Embed Instagram stories</a>
+          </li>
+          <li class="footer__box-item">
+            <a class="footer__box-link" href="#">Display Instagram feeds</a>
+          </li>
+          <li class="footer__box-item">
+            <a class="footer__box-link" href="#">Collect reviews</a>
+          </li>
+          <li class="footer__box-item">
+            <a class="footer__box-link" href="#">Send email requests</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__box">
+        <p class="footer__box-title">Company</p>
+        <ul class="footer__box-list">
+          <li class="footer__box-item">
+            <a class="footer__box-link" href="#">About EmbedSocial</a>
+          </li>
+          <li class="footer__box-item">
+            <a class="footer__box-link" href="#">Brand Guidelines</a>
+          </li>
+          <li class="footer__box-item">
+            <a class="footer__box-link" href="#">Press Kit</a>
+          </li>
+          <li class="footer__box-item">
+            <a class="footer__box-link" href="#">Support</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__box">
+        <p class="footer__box-title">Integrations</p>
+        <ul class="footer__box-list">
+          <li class="footer__box-item">
+            <a class="footer__box-link" href="#">WordPress</a>
+          </li>
+          <li class="footer__box-item">
+            <a class="footer__box-link" href="#">Shopify</a>
+          </li>
+          <li class="footer__box-item">
+            <a class="footer__box-link" href="#">Magento</a>
+          </li>
+          <li class="footer__box-item">
+            <a class="footer__box-link" href="#">Squarespace</a>
+          </li>
+          <li class="footer__box-item">
+            <a class="footer__box-link" href="#">Intercom</a>
+          </li>
+          <li class="footer__box-item">
+            <a class="footer__box-link" href="#">Slack</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </main>
+  </body>
+</html>
